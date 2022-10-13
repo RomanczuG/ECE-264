@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/mateusz/Desktop/Classes/ECE264/Assigments/hw10-RomanczuG'
+gcc -std=c99 -g -Wall -Wshadow --pedantic -Wvla -Werror  -DTEST_CREATELIST -DTEST_ELIMINATE -DTEST_DELETENODE -DDEBUG -c main.c 
+ 
+gcc -std=c99 -g -Wall -Wshadow --pedantic -Wvla -Werror  -DTEST_CREATELIST -DTEST_ELIMINATE -DTEST_DELETENODE -DDEBUG -c hw10.c 
+gcc -std=c99 -g -Wall -Wshadow --pedantic -Wvla -Werror  -DTEST_CREATELIST -DTEST_ELIMINATE -DTEST_DELETENODE -DDEBUG main.o hw10.o -o hw10
+make: Leaving directory `/Users/mateusz/Desktop/Classes/ECE264/Assigments/hw10-RomanczuG'
+ 

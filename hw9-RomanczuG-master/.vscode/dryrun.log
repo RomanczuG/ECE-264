@@ -1,0 +1,10 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/mateusz/Desktop/Classes/ECE264/Assigments/hw9-RomanczuG'
+gcc -std=c99 -g -Wall -Wshadow --pedantic -Wvla -Werror  -c maze.c 
+gcc -std=c99 -g -Wall -Wshadow --pedantic -Wvla -Werror  -c mazehelper.c 
+gcc -std=c99 -g -Wall -Wshadow --pedantic -Wvla -Werror  -c path.c 
+gcc -std=c99 -g -Wall -Wshadow --pedantic -Wvla -Werror  -c solver.c 
+gcc -std=c99 -g -Wall -Wshadow --pedantic -Wvla -Werror  -c hw9.c 
+gcc -std=c99 -g -Wall -Wshadow --pedantic -Wvla -Werror  maze.o mazehelper.o path.o solver.o hw9.o -o program 
+make: Leaving directory `/Users/mateusz/Desktop/Classes/ECE264/Assigments/hw9-RomanczuG'
+ 

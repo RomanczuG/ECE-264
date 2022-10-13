@@ -1,0 +1,7 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory `/Users/mateusz/Desktop/Classes/ECE264/Assigments/hw8-RomanczuG'
+gcc -std=c99 -g -Wall -Wshadow --pedantic -Wvla -Werror  -c shuffle.c 
+ 
+gcc -std=c99 -g -Wall -Wshadow --pedantic -Wvla -Werror  main.o shuffle.o -o program 
+make: Leaving directory `/Users/mateusz/Desktop/Classes/ECE264/Assigments/hw8-RomanczuG'
+ 

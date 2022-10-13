@@ -1,0 +1,9 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/mateusz/Desktop/Classes/ECE264/Assigments/hw13-RomanczuG'
+gcc -std=c99 -g -Wall -Wshadow --pedantic -Wvla -Werror   -c hw13.c 
+gcc -std=c99 -g -Wall -Wshadow --pedantic -Wvla -Werror   -c scanner.c 
+gcc -std=c99 -g -Wall -Wshadow --pedantic -Wvla -Werror   -c tree.c 
+gcc -std=c99 -g -Wall -Wshadow --pedantic -Wvla -Werror   -c expressionTree.c 
+gcc -std=c99 -g -Wall -Wshadow --pedantic -Wvla -Werror   hw13.o scanner.o tree.o expressionTree.o -o hw13
+make: Leaving directory `/Users/mateusz/Desktop/Classes/ECE264/Assigments/hw13-RomanczuG'
+ 

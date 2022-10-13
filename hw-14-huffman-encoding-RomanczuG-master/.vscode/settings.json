@@ -1,0 +1,20 @@
+{
+    "files.associations": {
+        "cstdio": "c",
+        "__string": "c",
+        "deque": "c",
+        "functional": "c",
+        "iterator": "c",
+        "queue": "c",
+        "string": "c",
+        "unordered_map": "c",
+        "vector": "c",
+        "__mutex_base": "c",
+        "__threading_support": "c",
+        "array": "c",
+        "bitset": "c",
+        "chrono": "c",
+        "semaphore": "c",
+        "thread": "c"
+    }
+}

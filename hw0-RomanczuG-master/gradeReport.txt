@@ -1,0 +1,19 @@
+Graded on 09-08 05:40:49
+Commit ID used: 1eaa8ec8a4cab811346e38301edead1be22a931a
+
+Grade: 100.0%
+Submission was 0 days late.
+Feedback: 
+make test compiled correctly! going to next step
+. Test case 1 is correct!
+. Test case 2 is correct!
+. Test case 3 is correct!
+. 3/3 test cases passed!
+
+. make test-ascending compiled correctly! going to next step
+. Test case 1 is correct!
+. Test case 2 is correct!
+. Test case 3 is correct!
+. 3/3 test cases passed!
+
+. 

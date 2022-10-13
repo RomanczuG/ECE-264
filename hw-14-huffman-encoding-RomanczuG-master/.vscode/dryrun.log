@@ -1,0 +1,9 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory `/Users/mateusz/Desktop/Classes/ECE264/Assigments/hw-14-huffman-encoding-RomanczuG'
+gcc -std=c99 -g -Wall -Wshadow --pedantic -Wvla -Werror -c hw14.c
+ 
+gcc -std=c99 -g -Wall -Wshadow --pedantic -Wvla -Werror -c sorted.c
+gcc -std=c99 -g -Wall -Wshadow --pedantic -Wvla -Werror -c huffman.c
+gcc -std=c99 -g -Wall -Wshadow --pedantic -Wvla -Werror hw14.o sorted.o huffman.o -o hw14
+make: Leaving directory `/Users/mateusz/Desktop/Classes/ECE264/Assigments/hw-14-huffman-encoding-RomanczuG'
+ 

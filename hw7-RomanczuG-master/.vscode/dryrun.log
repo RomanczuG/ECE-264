@@ -1,0 +1,6 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory `/Users/mateusz/Desktop/Classes/ECE264/Assigments/hw7-RomanczuG'
+make: `program' is up to date.
+ 
+make: Leaving directory `/Users/mateusz/Desktop/Classes/ECE264/Assigments/hw7-RomanczuG'
+ 
