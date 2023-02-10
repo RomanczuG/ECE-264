@@ -2,6 +2,9 @@
 
 
 void ssort(int * arr, int size) {
+
+
+	int inex = 1;
 	// indexes needed for searching
 	int index = 0;
 	int searchIndex = 0;
